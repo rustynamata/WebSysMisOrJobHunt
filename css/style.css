@@ -1,0 +1,154 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  background: url(../images/b.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items: center;
+  min-height: 100%;
+  box-sizing: border-box;
+ /* overflow: hidden;
+  overflow-x: hidden;*/
+
+ 
+}
+
+#dropdownButton {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+#dropdownButton:hover {
+  background: #e0e0e0;
+}
+
+header {
+  width: 100%;
+ padding: 1rem;
+  background-color: rgba(128, 128, 128, .3);
+  color: #000;
+  display: flex;
+  justify-content: flex-end;
+}
+main {
+  min-height: 100%;
+  padding: 20px;
+}
+.srx-cont img{
+  max-width: 150px;
+  max-height: 200px;
+  padding: 1rem;
+  
+  
+}
+.srx-cont {
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.507);
+  text-align: center;
+  padding: 20px;
+  min-width: 400px;
+  
+  
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+.search-box input{
+  font-size:15px !important;
+  width: 70%;
+
+}
+#srxResult{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 100%;
+
+  
+}
+#srxResult button{
+  position: relative;
+  align-self: flex-start;
+  text-align: left;
+  width: 70%;
+  padding: 5px;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+}
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-box button:hover{
+  background-color: #05304c;
+}
+h3{
+  text-align: left;
+  
+}
+.filter {
+  display: inline-flex;
+  /* justify-items: center; */
+  /* margin: auto; */
+  /* display: flex; */
+  justify-content: space-between;
+  margin: auto 10px auto;
+  padding: 5px;
+  width: 90%;
+}
+
+.filter label {
+  margin-right: 30px;
+}
+
+.filter select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#contact img{
+  width: 25px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
+footer {
+  width: 100%;
+  background-color: 	#c2c2c2;
+  position: absolute; 
+  bottom: 0;
+  color: #404040;
+  text-align: center;
+  transition: transform 0.5s ease;
+  font-size: 25px;
+  
+  
+  
+}
