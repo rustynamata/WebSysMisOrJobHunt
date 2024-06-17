@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/recruitment.css">
+        <title>Assisgnment</title>
+    </head>
+    <body>
+        <div id="header-placeholder">
+
+        </div>
+        <form id="Fill_out">
+            <div class="maincont">
+                <h2>Recruitment Form</h2>
+                <div class="contain">
+                    <div class="primary_dat">
+                        <div class="comp_topdiv">
+                                <span>
+                                    <label for="comp_name">Company Name:</label><br>
+                                    <input type="text" id="comp_name" name="comp_name"  >
+                                </span>
+                                <span>
+                                    <label for="Job_tt">Job Title:</label><br>
+                                    <input type="text" id="Job_tt" name="Job_tt"  >
+                                </span>
+                                <span>
+                                    <label for="jobType">Employment Type:</label><br>
+                                    <select id="jobtype">
+                                        <option value="fullTime">Full Time</option>
+                                        <option value="partTime">Part Time</option>
+                                        <option value="temporary">Temporary</option>
+                                        <option value="contractual">Contractual</option>
+                                    </select>
+                                </span>
+                                <span>
+                                    <label for="Barangay">Street/Barangay:</label><br>
+                                    <input type="text" id="Barangay" name="Barangay"  >
+                                </span>
+                                <span>
+                                    <label for="Municipality">Municipality:</label><br>
+                                    <input type="text" id="Municipality" name="Municipality"  >
+                                </span>
+                                <span>
+                                    <label for="province">Province:</label><br>
+                                    <input type="text" id="province" name="province"  >
+                                </span>
+                        </div>
+                        <div class="names">
+                            <span class="jobsum">
+                                <label for="job_sm">Job Summary:</label>                        
+                                <textarea id="job_sm" name="job_sm"></textarea>
+                            </span>
+                        </div>
+                        <div class="keyres">
+                            <span class="resList">
+                                <label for="key_r">Key Responsibilities:</label>
+                                <textarea id="key_r" name="key_r"></textarea>
+                            </span>
+                            <button id="reslist">+</button>
+                        </div>
+                        <div class="names qual">
+                            <span class="educ">
+                            
+                                <label>Required Qualifications:</label>
+                                <div class="qual">
+                                    <div class="educas">
+                                        <div>
+                                            <label for="education">Highest Educational Attainment</label>
+                                            <select id="educlevel">
+                                                <option value="ElemLevel">Elementary Level</option>
+                                                <option value="ElemGrad">Elementary Graduate</option>
+                                                <option value="HSLevel">High School Level</option>
+                                                <option value="HSGrad">High School Graduate</option>
+                                                <option value="collevel">College level</option>
+                                                <option value="colgrad">College Graduate</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <label for="exp">Years of Experience</label>
+                                            <input type="number" id="expnum" name="exp"  >
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <label for="req_qual">Others:</label>
+                                <textarea id="req_qual" name="req_qual"></textarea>                        
+                            </span>
+                            <button id="aders">+</button>
+                        </div>
+                        <div class="names">
+                            <span class="skilldiv">
+                                <label for="skils_comp">Skills and Competencies:</label>
+                                <textarea id="skils_comp" name="skils_comp"></textarea>
+                            </span>
+                            <button id="skcompbtn">+</button>
+                        </div>
+                        <div class="workCon">
+                            <span class="workondiv">
+                                <label for="work_con">Working Conditions:</label>
+    `                           <textarea id="work_con" name="work_con"></textarea>
+                            </span>
+                            <button id="workon">+</button>
+                        </div>
+    
+                        <div class="names">
+                            <span class="comben">
+                                <label for="comp_ben">Compensation and Benefits:<br><br>
+                                    <label for="salrange">Salary:</label>
+                                    <input type="text" id="salary" name="start">
+                                </label><br>
+                                 <p>Other:</p>
+                                <textarea id="comp_ben" name="comp_ben"></textarea>
+                            </span>
+                            <button id="combenbtn">+</button>
+                        </div>
+                        <div class="names">
+                            <span class="howto">
+                                <label for="how_ap">How to Apply:</label>
+                                <textarea id="how_ap" name="how_ap"></textarea>
+                            </span>
+                            <button id="howtobtn">+</button>
+                        </div>
+                    </div>
+                    <input type="submit" id="Save" name="save" value="Save">
+                </div>        
+            </div>
+        </form>
+        <script src="../js/recruitmentform.js"></script>
+    </body>
+</html>

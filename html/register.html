@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/register.css">
+        <title>Assisgnment</title>
+    </head>
+    <body>
+        <main>
+            <div id="popupBox" class="popup">
+                <div class="otpbd">
+                    <p>Enter the OTP</p>
+                    <p class="overlayprompt"></p>
+                    <div class="containerp">
+                        <input required type="text" id="otp"  autocomplete="one-time-code" inputmode="numeric" maxlength="6" pattern="\d{6}" onkeyup="if(this.value.length == 6) this.blur()"/>
+                        <button id="confirm">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <form id="registrationform">
+                <h2> Registration</h2>
+                <h4 class="prompt"></h4>
+                
+                <div class="utype">
+                    <p>User Type:</p>
+                    <label for="employee">
+                    <input type="radio" id="employee" name="UserType" value="Applicant" required>
+                    APPLICANT</label>
+                    <label for="employer">
+                    <input type="radio" id="employer" name="UserType" value="Recruiter">
+                    RECRUITER</label>
+                </div>
+                <div class="gridder">
+                    <div class="separate">
+                        <div class="cut">
+                            <label for="FName">First Name:</label>
+                            <input type="text" id="FName" name="FName" class="dradio" autocomplete="off" required> 
+                            
+                            <label for="Email">Email:</label>
+                            <input type="email" id="Email" name="Email" class="dradio" autocomplete="off" required>
+                            
+                        </div>
+                    </div>
+                    <div class="separate">
+                        <div class="cut">
+                           <label for="LName">Last Name:</label>
+                            <input type="text" id="LName" name="LName" class="dinput" autocomplete="off" required>
+
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" class="dinput" autocomplete="off" required>
+                        </div>
+                    </div>
+                </div>
+                   
+                <input type="submit" id="Register" value="Register">
+                <h4>Do you have an Account? <a href="../html/log_in.html">Log-in</a></h4>
+            </form>
+
+        </main>
+        <script src="../js/register.js"></script>
+    </body>
+
+</html>

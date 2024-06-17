@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/application_form.css">
+        <title>Applicant</title>
+    </head>
+    <body>
+        <main>
+            <div id="popupBox" class="popup">
+                <div class="popup-content"><p>Registration successful!</p>
+                    <button class="close">Proceed</button>
+                    
+                </div>
+            </div>
+            
+            <form id="Fill_out">
+                <div class="maincont">
+                    <h2>Applicant Registration</h2>
+                    <p class="prompt"></p>
+                    <div class="contain">
+                        <div class="personal_inf">
+                            <div class="personalinfonly">
+                                <p>Personal Information</p>
+                                <div class="names">
+                                    <span>
+                                        <label for="Fname">First Name:</label><br>
+                                        <input type="text" id="Fname" name="Fname"  >
+                                    </span>
+                                    <span>
+                                        <label for="Lname">Last Name:</label><br>
+                                        <input type="text" id="Lname" name="Lname"  >
+                                    </span>
+                                    <span>
+                                        <label for="Mname">Middle Name:</label><br>
+                                        <input type="text" id="Mname" name="Mname"  >
+                                    </span>
+                                </div>
+                                <div class="sgb">
+                                    <span>
+                                        <label for="sex">Sex:</label><br>
+                                            <select name="sex" id="sex">
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </span>
+                                    <span>
+                                        <label for="age">Age:</label><br>
+                                        <input type="number" id="age" name="age"  >
+                                    </span>
+                                    <span>
+                                        <label for="bdate">Birthdate:</label><br>
+                                        <input type="date" id="bdate" name="bdate"  >
+                                    </span>
+                                </div>
+                                <div class="acn">
+                                    <span>
+                                        <label for="address">Address:</label><br>
+                                        <input type="text" id="address" name="address"  >
+                                    </span>
+                                    <span>
+                                        <label for="civil">Civil Status:</label><br>
+                                        <select name="civil" id="civil">
+                                            <option value="Single">Single</option>
+                                            <option value="Married">Married</option>
+                                            <option value="Windowed">Widowed</option>
+                                            <option value="Legally Separated">Legally Separated</option>
+                                        </select>
+                                    </span>
+                                    <span>
+                                        <label for="nationality">Nationality:</label><br>
+                                        <input type="text" id="nationality" name="nationality"  >
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="contact_inf">
+                                <p>Contact Information</p>
+                                <div class="contact_det">
+                                    <span>
+                                        <label for="phone">Phone Number:</label><br>
+                                        <input type="tel" pattern="[0-9]{11}" id="phone" name="phone"  >
+                                    </span>
+                                    <span>
+                                        <label for="email">Email Address:</label><br>
+                                        <input type="email" id="email" name="email"  >
+                                    </span>
+                                    <span>
+                                        <label for="messenger_link">Messenger Link:</label><br>
+                                        <input type="text" id="messenger_link" name="messenger_link"  >
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="educational_bg">
+                                <p>Educational Background</p>
+                                <div class="ed_bg">
+                                    <label for="elem">
+                                    <input type="checkbox" id="idelem" name="elem" value="Elementary">
+                                    Elementary</label>
+                                    <div class="classelem">
+                                        <div class="hsheader">
+                                            <p>School Name:</p>
+                                            <input type="text" id = "elemSN"name="elem_school_name">
+                                            <p>School Address:</p>
+                                            <input type="text" id = "elemSA" name="elem_school_address">
+                                            <p>Grade Level:</p>
+                                            <input type="text" id = "elemlvl" name="elem_grade_level">
+                                            <p>Year:</p>
+                                            <input type="text" id = "elemYR" name="elem_year">
+
+                                        </div>
+                                   
+                                    </div>
+                                    <label for="high">
+                                    <input type="checkbox" id="idhigh" name="high" value="High School">
+                                    High School</label>
+                                    <div class="classhigh">
+                                        <div class="hsheader">
+                                            <p>School Name:</p>
+                                            <input type="text" id = "hsSN" name="high_school_name">
+                                            <p>School Address:</p>
+                                            <input type="text" id = "hsSA" name="high_school_address">
+                                            <p>Grade Level:</p>
+                                            <input type="text" id = "hslvl" name="high_grade_level">
+                                            <p>Year:</p>
+                                            <input type="text" id = "hsYR" name="high_year">
+                                        </div>
+                                    </div>
+                                    <label for="college">
+                                    <input type="checkbox" id="idcollege" name="college" value="College">
+                                    College</label>
+                                    <div class="classcollege">
+                                        <button id="colbtn">+</button>
+                                        <div class="colheader"><p>Degree:</p>
+                                            <input type="text" id = "coldeg" name="college_degree">
+                                            <p>School Name:</p>
+                                            <input type="text" id = "colSN" name="college_school_name">
+                                            <p>School Address:</p>
+                                            <input type="text" id = "colSA" name="college_school_address">
+                                            <p>Grade Level:</p>
+                                            <input type="text" id = "collvl" name="college_grade_level">
+                                            <p>Year:</p>
+                                            <input type="text" id = "colYR"  name="college_year">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="work_exp">
+                                <div class="work">
+                                    <p>Working Experience</p>
+                                    <div class="exps">
+                                        <div class="exp1">
+                                            <span>
+                                                <label for="position">Position:</label><br>
+                                                <input type="text" id="position" name="position"  >
+                                            </span>
+                                            <span>
+                                                <label for="workspan">Working Span:</label><br>
+                                                <input type="text" id="workspan" name="workspan"  >
+                                            </span>
+                                        </div>
+                                        <span>
+                                            <label for="description">Description:</label><br>
+                                            <textarea id="description" name="description" rows="4" cols="30"></textarea></textarea>
+                                        </span> 
+                                    </div>
+                                    <button class="add_exp">+</button>
+                                </div>
+                            </div>
+                            <input type="submit" id="Submit" value="Save">
+                        </div> 
+                    </div> 
+                </div>  
+            </form>
+
+        </main>
+        <script src="../js/applicant_form.js"></script>
+    </body>
+
+</html>
