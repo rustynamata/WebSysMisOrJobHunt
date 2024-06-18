@@ -3,7 +3,7 @@ Dsiclaimer: FOR EDUCATIONAL PURPOSES ONLY
 
 /*INTRODUCTION*/
 
-  MisOr Job Hunt is a envisioned project of the group to have a locally created web site for the province of Misamis Oriental. Catering not just big companies and enterprises but also to those employer who is looking for an alternative website that will cater their recruitment, either finding helper, carpenter, domestic helper, laborer, cashier, and other job that is limited within the scope of the province. Providing an exclusive space for local recruiters.
+  MisOr Job Hunt is a envisioned project of the group to have a locally created website for the province of Misamis Oriental. Catering not just big companies and enterprises but also for those employer who is looking for an alternative website that will cater their recruitment, either finding helper, carpenter, domestic helper, laborer, cashier, and other job that is limited within the scope of the province. Providing an exclusive space for local recruiters.
   
   The Project is not in stable release but rather of a beta version for fture refrence or future development of the rpoject that might sooner be  acheive.
   
